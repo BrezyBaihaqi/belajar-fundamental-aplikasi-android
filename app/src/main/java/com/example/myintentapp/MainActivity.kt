@@ -51,7 +51,14 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             }
 
             R.id.btn_move_with_object -> {
+                // karena data yg akan dikirimkan lebih kompleks, kita gunakan data class Person
+                val person = Person(
+                    "DicodingAcademy", 5, "academy@dicoding.com", "Bandung"
+                )
 
+                val moveWithObjectIntent = Intent(this@MainActivity, MoveWithObjectActivity::class.java)
+                moveWithObjectIntent.putExtra(MoveWithObjectActivity.EXTRA_PERSON, person)
+                startActivity(moveWithObjectIntent)
             }
 
             R.id.btn_dial_number -> {
