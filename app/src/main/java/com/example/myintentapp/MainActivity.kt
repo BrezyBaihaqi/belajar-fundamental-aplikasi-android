@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     companion object {
         private const val REQUEST_CODE = 100
     }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -32,8 +33,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         val btnDialNumber: Button = findViewById(R.id.btn_dial_number)
         btnDialNumber.setOnClickListener(this)
 
-        val btnMoveWithResult: Button = findViewById(R.id.btn_move_with_result)
-        btnMoveWithResult.setOnClickListener(this)
+        val btnMoveForResult: Button = findViewById(R.id.btn_move_with_result)
+        btnMoveForResult.setOnClickListener(this)
 
         tvResult = findViewById(R.id.tv_result)
     }
@@ -78,7 +79,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
             R.id.btn_move_with_result -> {
                 val moveForResultIntent = Intent(this@MainActivity, MoveForResultActivity::class.java)
-                startActivity(moveForResultIntent)
+                // jika ingin menggunakan key-value seperti REQUEST_CODE pastikan gunakan startActivityForResult
+                startActivityForResult(moveForResultIntent, REQUEST_CODE)
             }
         }
     }
