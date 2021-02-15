@@ -1,4 +1,5 @@
 <resources>
+    <!--String Resources for MyIntentApp-->
     <string name="app_name">MyIntentApp</string>
     <string name="move_activity">Pindah Activity</string>
     <string name="move_with_data">Pindah Activity dengan Data</string>
@@ -15,4 +16,14 @@
     <string name="data_received">Data Diterima</string>
     <string name="object_received">Object Diterima</string>
     <string name="this_is_moveactivity">Ini MoveActivity</string>
+    
+    <!--String Resources for MyRecyclerView-->
+    <string name="app_name">My Application</string>
+    <string name="heroes_name">Nama Pahlawan</string>
+    <string name="detail">Detail</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+    <string name="with_cardview">with CardView</string>
+    <string name="favorite">Favorite</string>
+
 </resources>
