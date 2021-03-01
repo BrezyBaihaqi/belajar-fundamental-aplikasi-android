@@ -5,12 +5,6 @@ public class CuboidModel {
     private var width: Double = 0.0
     private var height: Double = 0.0
 
-    fun save(length: Double, width: Double, height: Double) {
-        this.length = length
-        this.width = width
-        this.height = height
-    }
-
     fun getVolume(): Double = length * width * height
 
     fun getSurfaceArea(): Double {
@@ -22,4 +16,10 @@ public class CuboidModel {
     }
 
     fun getCircumference(): Double = 4 * (length + width + height)
+
+    fun save(length: Double, width: Double, height: Double) {
+        this.length = length
+        this.width = width
+        this.height = height
+    }
 }
