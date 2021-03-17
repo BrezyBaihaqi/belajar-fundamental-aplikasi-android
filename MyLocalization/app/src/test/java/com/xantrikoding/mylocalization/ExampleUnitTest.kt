@@ -1,4 +1,4 @@
-package com.example.myunittesting
+package com.xantrikoding.mylocalization
 
 import org.junit.Test
 
