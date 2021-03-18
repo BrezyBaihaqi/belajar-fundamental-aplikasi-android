@@ -9,6 +9,12 @@
     <string name="with_cardview">with CardView</string>
     <string name="favorite">Favorite</string>
     <string name="share">Share</string>
+    <string name="follower">follower</string>
+    <string name="city">city</string>
+    <string name="location">location</string>
+    <string name="github_link">github profile</string>
+    <string name="follow">FOLLOW</string>
+    <string name="following">following</string>
     <string-array name="data_name">
         <item>Igor Wojda</item>
         <item>Nicola Corti</item>

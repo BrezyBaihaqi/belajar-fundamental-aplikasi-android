@@ -2,12 +2,14 @@ package com.xantrikoding.githubapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.xantrikoding.githubapp.adapter.ListCoderAdapter
 import com.xantrikoding.githubapp.data.Coder
 import com.xantrikoding.githubapp.databinding.ActivityMainBinding
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     private lateinit var binding: ActivityMainBinding
     private val list = ArrayList<Coder>()
@@ -21,6 +23,8 @@ class MainActivity : AppCompatActivity() {
 
         list.addAll(getListCoders())
         showRecyclerList()
+
+        binding.rvCoders.setOnClickListener(this)
     }
 
     fun getListCoders(): ArrayList<Coder> {
@@ -46,5 +50,13 @@ class MainActivity : AppCompatActivity() {
         binding.rvCoders.layoutManager = LinearLayoutManager(this)
         val listCoderAdapter = ListCoderAdapter(list)
         binding.rvCoders.adapter = listCoderAdapter
+    }
+
+    override fun onClick(v: View) {
+        when (v.id) {
+            R.id.rv_coders -> {
+
+            }
+        }
     }
 }

@@ -1,0 +1,72 @@
+<resources>
+    <array name="film_photo">
+        <item>@drawable/the_old_man_and_the_gun</item>
+        <item>@drawable/the_lion_king</item>
+        <item>@drawable/fast_and_furious_presents</item>
+        <item>@drawable/men_in_black</item>
+        <item>@drawable/john_wick</item>
+        <item>@drawable/aladdin</item>
+        <item>@drawable/angel_has_fallen</item>
+        <item>@drawable/hello_love_goodbye</item>
+        <item>@drawable/avengers_endgame</item>
+        <item>@drawable/red_shoes_and_the_seven_dwarfs</item>
+    </array>
+    <string name="judul_film">Judul Film</string>
+    <string name="deskripsi_film">Deskripsi film</string>
+    <string name="app_name">Layar Tancep</string>
+    <string name="genre">film_genre</string>
+    <string name="top_cast">Pemeran Utama</string>
+    <string name="Sinopsis">Sinopsis</string>
+
+    <string-array name="film_description">
+        <item>The true story of Forrest Tucker, from his audacious escape from San Quentin at the age of 70 to an unprecedented string of heists that confounded authorities and enchanted the public.</item>
+        <item>Simba idolises his father, King Mufasa, and takes to heart his own royal destiny. But not everyone in the kingdom celebrates the new cubs arrival.</item>
+        <item>A spinoff of The Fate of the Furious, focusing on Johnsons US Diplomatic Security Agent Luke Hobbs forming an unlikely alliance with Stathams Deckard Shaw.</item>
+        <item>The Men in Black have always protected the Earth from the scum of the universe. In this new adventure, they tackle their biggest, most global threat to date: a mole in the Men in Black organization.</item>
+        <item>Super-assassin John Wick returns with a $14 million price tag on his head and an army of bounty-hunting killers on his trail. After killing a member of the shadowy international assassins guild</item>
+        <item>A kindhearted street urchin named Aladdin embarks on a magical adventure after finding a lamp that releases a wisecracking genie while a power-hungry Grand Vizier vies for the same lamp</item>
+        <item>Secret Service Agent Mike Banning is framed for the attempted assassination of the President and must evade his own agency and the FBI as he tries to uncover the real threat.</item>
+        <item>A love story of Joy and Ethan, Filipino workers based in Hong Kong. Ethan, a bartender, is keen on romantically pursuing Joy, a domestic helper who is wholly dedicated to providing for her family.</item>
+        <item>After the devastating events of Avengers: Infinity War, the universe is in ruins due to the efforts of the Mad Titan, Thanes. With the help of remaining allies, the Avengers must assemble once more.</item>
+        <item>Princes who have been turned into Dwarfs seek the red shoes of a lady in order to break the spell, although it will not be easy.</item>
+    </string-array>
+
+    <string-array name="film_title">
+        <item>The Old Man and The Gun</item>
+        <item>The Lion King</item>
+        <item>Fast and Furious Presents Hobbs and Shaw</item>
+        <item>Men in Black: International</item>
+        <item>John Wick Chapter 3 Parabellum</item>
+        <item>Aladdin</item>
+        <item>Angel Has Fallen</item>
+        <item>Hello Love Goodbye</item>
+        <item>Avengers Endgame</item>
+        <item>Red Shoes and the Seven Dwarfs</item>
+    </string-array>
+
+    <string-array name="film_genre">
+        <item>Comedy, Crime, Drama</item>
+        <item>Adventure, Animation, Family, Drama, Action</item>
+        <item>Action</item>
+        <item>Action, Comedy, Science Fiction, Adventure</item>
+        <item>Crime, Action, Thriller</item>
+        <item>Adventure, Fantasy, Romance, Comedy, Family</item>
+        <item>Action</item>
+        <item>Romance, Drama</item>
+        <item>Adventure, Science Fiction, Action</item>
+        <item>Animation, Romance</item>
+    </string-array>
+
+    <string-array name="artist">
+        <item>Robert Redford, Sissy Spacek, Casey Affleck, Danny Glover</item>
+        <item>Donald Glover, Beyonce Knowles, James Earl Jones, Chiwetel Ejiofor</item>
+        <item>Dwayne Johnson, Jason Statham, Idris Elba, Vanessa Kirby</item>
+        <item>Chris Hemsworth, Tessa Thompson, Liam Neeson, Rebecca Ferguson</item>
+        <item>Keanu Reeves, Halle Berry, Ian McShane, Laurence Fishburne</item>
+        <item>Mena Massoud, Naomi Scott, Will Smith, Marwan Kenzari</item>
+        <item>Gerard Butler, Morgan Freeman, Jada Pinkett Smith, Lance Reddick</item>
+        <item>Kathryn Bernardo, Alden Richards, Maymay Entrata, Maricel Laxa</item>
+        <item>Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth</item>
+        <item>Chloe Grace Moretz, Sam Claflin, Gina Gershon, Jim Rash</item>
+    </string-array>
+</resources>
