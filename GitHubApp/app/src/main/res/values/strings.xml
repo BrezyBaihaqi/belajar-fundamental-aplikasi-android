@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">GitHubApp</string>
+
+    <string name="coders_name">Nama Programmer</string>
+    <string name="user_name">username</string>
+    <string name="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus condimentum mi odio, ac luctus arcu mattis id. Mauris dictum ligula eget risus aliquet rutrum. Mauris pharetra purus non erat volutpat gravida. Ut dapibus, magna et facilisis porttitor, nulla diam tempor libero, a accumsan nibh lorem id ipsum. Donec ultrices molestie ante at eleifend. Quisque nec bibendum justo. Nam sollicitudin mauris neque, nec interdum mauris fringilla quis.</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+    <string name="with_cardview">with CardView</string>
+    <string name="favorite">Favorite</string>
+    <string name="share">Share</string>
+    <string name="follower">follower</string>
+    <string name="city">city</string>
+    <string name="location">location</string>
+    <string name="github_link">github profile</string>
+    <string name="follow">FOLLOW</string>
+    <string name="following">following</string>
+    <string-array name="data_name">
+        <item>Igor Wojda</item>
+        <item>Nicola Corti</item>
+        <item>Arkadii Ivanov</item>
+        <item>Jake Wharton</item>
+        <item>Jaewoong Eum</item>
+        <item>Marc Philipp</item>
+        <item>Harsh Shandilya</item>
+        <item>Simon Vergauwen</item>
+        <item>Mike Penz</item>
+        <item>Gabriel Peal</item>
+    </string-array>
+    <string-array name="data_user_name">
+        <item>igorwodja</item>
+        <item>cortinico</item>
+        <item>arkivanov</item>
+        <item>JakeWharton</item>
+        <item>skydoves</item>
+        <item>marcphilipp</item>
+        <item>msfjarvis</item>
+        <item>nomisRev</item>
+        <item>mikepenz</item>
+        <item>gpeal</item>
+    </string-array>
+    <string-array name="data_description">
+        <item> Android Developer Advocate &amp; Author of "Android Development with Kotlin" book</item>
+        <item>Maintainer of Detekt, Chucker, AppIntro 🐧 - Host @ thebakery.dev 🎙 - He/Him 🏳️‍🌈 【ツ】</item>
+        <item>Android developer. Passionate about Kotlin Multiplatform, MVI and reactive programming.</item>
+        <item>an Android developer at Square working on Square Cash. He has been living with a severe allergy to boilerplate code and bad APIs for years and speaks at conferences all around the world in an effort to educate more about this terrible disease.</item>
+        <item>Android software engineer. Digital Nomad. Open Source Contributor. ❤️ Love coffee, music, magic tricks and writing poems. Coffee Driven Development.</item>
+        <item>Software engineer at @gradle, @junit-team lead, open-source enthusiast</item>
+        <item>Product Engineer at @obvious. Lead maintainer of @android-password-store. Co-maintainer of @WireGuard Android.</item>
+        <item>Functional Programmer enthusiast. http://www.arrow-kt.io maintainer. Senior Software Engineer @47deg</item>
+        <item>Open source enthusiast. ♥️ Android. and @storyblok 🥑 Writing helpful things @ http://blog.mikepenz.dev</item>
+        <item>Maintainer of Lottie Android and MvRx. Software engineer at Tonal. Formerly Android and React Native at Airbnb and Google.</item>
+    </string-array>
+    <string-array name="data_photo">
+        <item>https://avatars.githubusercontent.com/u/530122?s=460&amp;u=1c407c8d4d5eb2e2552329c46b3871ee0ab411d6&amp;v=4</item>
+        <item>https://avatars.githubusercontent.com/u/3001957?s=460&amp;u=612480c64b45755601addb40b5ede4bc7c221a05&amp;v=4</item>
+        <item>https://avatars.githubusercontent.com/u/26204457?s=460&amp;u=20e84ed80a13360475e96e1bc3d6511712ac7f61&amp;v=4</item>
+        <item>https://avatars.githubusercontent.com/u/66577?s=460&amp;v=4</item>
+        <item>https://avatars.githubusercontent.com/u/24237865?s=460&amp;u=0043fe9b774ad74948955e2256550e53e0d1d019&amp;v=4</item>
+        <item>https://avatars.githubusercontent.com/u/214207?s=460&amp;u=2499089f70e4b0961818eab56ae5746b62c42912&amp;v=4</item>
+        <item>https://avatars.githubusercontent.com/u/13348378?s=460&amp;u=76f4b1555db36d21f26e68822f7b17eeeda79968&amp;v=4</item>
+        <item>https://avatars.githubusercontent.com/u/12424668?s=460&amp;u=47e9e6da0df22c0bd7e70084d31bb75339b6a15b&amp;v=4</item>
+        <item>https://avatars.githubusercontent.com/u/1476232?s=460&amp;u=5d3f22783822a219975386abfc1c4675296f01b6&amp;v=4</item>
+        <item>https://avatars.githubusercontent.com/u/1307745?s=460&amp;u=28c696bad7ad38b2b800efc0c3fea347b22147cf&amp;v=4</item>
+    </string-array>
+</resources>
