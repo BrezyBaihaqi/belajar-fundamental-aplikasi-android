@@ -1,15 +1,17 @@
 package com.xantrikoding.githubapp
 
-import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
 import android.os.Bundle
-import android.view.View
+import android.provider.Settings
+import android.view.Menu
+import android.view.MenuItem
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
 import com.xantrikoding.githubapp.adapter.ListCoderAdapter
 import com.xantrikoding.githubapp.data.Coder
 import com.xantrikoding.githubapp.databinding.ActivityMainBinding
 
-class MainActivity : AppCompatActivity(), View.OnClickListener {
+class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
     private val list = ArrayList<Coder>()
@@ -23,8 +25,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
         list.addAll(getListCoders())
         showRecyclerList()
-
-        binding.rvCoders.setOnClickListener(this)
     }
 
     fun getListCoders(): ArrayList<Coder> {
@@ -32,6 +32,11 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         val dataUserName = resources.getStringArray(R.array.data_user_name)
         val dataDescription = resources.getStringArray(R.array.data_description)
         val dataPhoto = resources.getStringArray(R.array.data_photo)
+        val dataCity = resources.getStringArray(R.array.data_city)
+        val dataLocation = resources.getStringArray(R.array.data_location)
+        val dataLink = resources.getStringArray(R.array.data_link)
+        val dataFollower = resources.getStringArray(R.array.data_follower)
+        val dataFollowing = resources.getStringArray(R.array.data_following)
 
         val listCoder = ArrayList<Coder>()
         for (position in dataName.indices) {
@@ -39,7 +44,12 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 dataName[position],
                 dataUserName[position],
                 dataDescription[position],
-                dataPhoto[position]
+                dataPhoto[position],
+                dataCity[position],
+                dataLocation[position],
+                dataLink[position],
+                dataFollower[position],
+                dataFollowing[position],
             )
             listCoder.add(coder)
         }
@@ -52,11 +62,16 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         binding.rvCoders.adapter = listCoderAdapter
     }
 
-    override fun onClick(v: View) {
-        when (v.id) {
-            R.id.rv_coders -> {
+    override fun onCreateOptionsMenu(menu: Menu): Boolean {
+        menuInflater.inflate(R.menu.main_menu, menu)
+        return super.onCreateOptionsMenu(menu)
+    }
 
-            }
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        if (item.itemId == R.id.action_change_setting) {
+            val mIntent = Intent(Settings.ACTION_LOCALE_SETTINGS)
+            startActivity(mIntent)
         }
+        return super.onOptionsItemSelected(item)
     }
 }
