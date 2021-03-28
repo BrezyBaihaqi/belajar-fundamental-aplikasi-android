@@ -12,9 +12,11 @@
     <string name="location">Location</string>
     <string name="github_link">Github Profile</string>
     <string name="follow">FOLLOW</string>
+    <string name="followed">Followed</string>
     <string name="following">Following</string>
     <string name="change_language">Change Language</string>
     <string name="toast_message">You choose </string>
+    <string name="stop_follow">Stop Follow</string>
     <string-array name="data_name">
         <item>Igor Wojda</item>
         <item>Nicola Corti</item>

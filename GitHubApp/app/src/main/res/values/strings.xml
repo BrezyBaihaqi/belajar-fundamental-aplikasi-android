@@ -12,9 +12,11 @@
     <string name="location">Lokasi</string>
     <string name="github_link">Profil Github</string>
     <string name="follow">IKUTI</string>
+    <string name="followed">Mengikuti</string>
     <string name="following">Mengikuti</string>
     <string name="change_language">Ubah Bahasa</string>
     <string name="toast_message">Kamu memilih </string>
+    <string name="stop_follow">Berhenti Mengikuti</string>
     <string-array name="data_name">
         <item>Igor Wojda</item>
         <item>Nicola Corti</item>

@@ -41,7 +41,7 @@ class ListCoderAdapter(private val listCoder: ArrayList<Coder>) :
                 tvItemDescription.text = coder.description
 
                 itemView.setOnClickListener {
-                    val toastMessage = itemView.resources.getString(R.string.toast_message)
+                    val toastMessage = it.resources.getString(R.string.toast_message)
                     Toast.makeText(
                         itemView.context,
                         "$toastMessage ${coder.name}",

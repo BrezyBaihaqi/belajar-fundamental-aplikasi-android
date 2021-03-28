@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.provider.Settings
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
@@ -40,6 +41,28 @@ class DetailActivity : AppCompatActivity() {
         binding.tvLink.text = coder?.link
         binding.tvFollower.text = coder?.follower
         binding.tvFollowing.text = coder?.following
+
+        supportActionBar?.title = coder?.name
+
+        binding.btnFollow.setOnClickListener {
+            if (btn_follow.text == getString(R.string.follow)) {
+                val followed = getString(R.string.followed)
+                btn_follow.text = followed.toUpperCase()
+                Toast.makeText(
+                    it.context,
+                    "$followed ${coder?.name}",
+                    Toast.LENGTH_SHORT
+                ).show()
+            } else {
+                btn_follow.text = getString(R.string.follow)
+                val stopFollow = getString(R.string.stop_follow)
+                Toast.makeText(
+                    it.context,
+                    "$stopFollow ${coder?.name}",
+                    Toast.LENGTH_SHORT
+                ).show()
+            }
+        }
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
