@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
         showRecyclerList()
     }
 
-    fun getListCoders(): ArrayList<Coder> {
+    private fun getListCoders(): ArrayList<Coder> {
         val dataName = resources.getStringArray(R.array.data_name)
         val dataUserName = resources.getStringArray(R.array.data_user_name)
         val dataDescription = resources.getStringArray(R.array.data_description)
